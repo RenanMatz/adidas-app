@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1{
+    font-family: "Holtwood One SC", serif;
+    margin: 0px;
+    color: rgb(0, 33, 104);
+}
+
+ion-header{
+    box-shadow: none;
+    --border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 3px;
+    align-items: center;
+    margin: 10px 0px 15px;
+}
+
+#adidas-logo{
+    width: 43px;
+    height: auto;
+}
+
+#me{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+
+ion-toolbar{
+    --background: none;
+    width: 12%;
+}
+
+.shoes-container{
+    width: 100%;
+    height: 20vh;
+    padding: 10px 0px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.shoes-container img{
+    width: 30%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.main-container{
+    width: 100%;
+    height: 35vh;
+    justify-content: center;
+    position: relative;
+}
+
+.main-container img{
+    width: 70%;
+    height: auto;
+}
+
+.main-container #three-points{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    bottom: 5px;
+}
+
+.info-container{
+    width: 100%;
+    height: 25vh;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-container h3{
+    font-weight: bold;
+    font-family: "Istok Web", sans-serif;
+    line-height: 1;
+    margin: 0px;
+    color: rgb(0, 33, 104);
+}
+
+.info-container p{
+    text-align: justify;
+    font-family: "Istok Web", sans-serif;
+    margin: 0px;
+    color: rgb(6, 43, 122);
+}
+
+.price-container{
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.price-container div{
+    width: 35vw;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.price-container #share{
+    background-color: rgb(0, 33, 104);
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px;
+}
+
+.price-container #shop{
+    background-color: rgb(0, 82, 57);
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px;
+}

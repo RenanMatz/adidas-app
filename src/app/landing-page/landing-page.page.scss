@@ -1,0 +1,67 @@
+// Reset de estilizações
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+h1{
+    font-family: "Holtwood One SC", serif;
+    color: #503c33;
+}
+
+p{
+    text-align: justify;
+    font-family: "Istok Web", sans-serif;
+    color: snow;
+}
+
+ion-content{
+    --background: none;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+// Main
+.logo-container{
+    width: 100%;
+    height: 8vh;
+    // background-color: skyblue;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.logo-container img{
+    height: 90%;
+    width: auto;
+    filter: invert(1);
+}
+
+.info-container{
+    width: 100%;
+    height: auto;
+    padding: 5px 15px;
+    gap: 5px;
+}
+
+.info-container span{
+    color: snow;
+}
+
+.button-container{
+    width: 100%;
+    height: 10vh;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container button{
+    padding: 15px 25px;
+    background-color: #503c33;
+    border-radius: 5px;
+    font-family: "Istok Web", sans-serif;
+    color: snow;
+}
